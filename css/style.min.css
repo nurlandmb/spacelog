@@ -1026,6 +1026,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: auto;
 }
 .services .service__title {
   padding: 46px 0 24px;

@@ -16,7 +16,8 @@
         $mail->Port = 465;                                    // TCP port to connect to
 
         $mail->setFrom('space.log@mail.ru');
-        $mail->addAddress('info@spacelog.kz');     // Add a recipient
+        $mail->addAddress('office@spacelog.kz');     // Add a recipient
+        // $mail->addAddress('info@spacelog.kz');     // Add a recipient
         $mail->addReplyTo($email, $name);
         $mail->addBcc($email);
         $mail->isHTML(true);                                  // Set email format to HTML
